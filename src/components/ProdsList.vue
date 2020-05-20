@@ -1,9 +1,11 @@
 <template>
   <div>
-      <div>{{ datas }}</div>
+      <!-- <div>{{ datas }}</div>
       <div>{{ datas.fe1 }}</div>
-      <div>{{ datas.fe2 }}</div>
-      <div>aaaaa</div>
+      <div>{{ datas.fe2 }}</div> -->
+      <div v-for="(item, index) in datas" :key="index">
+        {{ item }}
+      </div>
   </div>
 </template>
 
