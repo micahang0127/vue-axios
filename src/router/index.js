@@ -1,7 +1,8 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import ProdsList from '../components/ProdsList.vue';
 import Main from '../components/Main.vue';
+import ProdsList from '../components/ProdsList.vue';
+import PkgsList from '../components/PkgsList.vue';
 
 Vue.use(VueRouter);
 
@@ -15,6 +16,10 @@ const router = new VueRouter({
         {
             path: '/prods',
             component: ProdsList,
+        },
+        {
+            path: '/pkgs',
+            component: PkgsList,
         },
     ]
 });

@@ -1,5 +1,8 @@
 <template>
-  <router-link to="/prods">Prods</router-link>
+    <div>
+        <router-link to="/prods" style="margin:20px;">Prods</router-link>
+        <router-link to="/pkgs" style="margin:20px;">Pkgs</router-link>
+    </div>
 </template>
 
 <script>

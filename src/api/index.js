@@ -8,6 +8,11 @@ function fetchProdsList(){
     return axios.get(`${config.baseUrl}/api/v1/prods`);
 }
 
+function fetchPkgsList(){
+    return axios.get(`${config.baseUrl}/api/v1/pkgs`);
+}
+
 export {
     fetchProdsList,
+    fetchPkgsList,
 };
