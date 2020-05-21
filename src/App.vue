@@ -1,17 +1,12 @@
 <template>
   <div id="app">
-    <ProdsList/>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import ProdsList from './components/ProdsList.vue'
-
 export default {
   name: 'App',
-  components: {
-    ProdsList,
-  }
 }
 </script>
 
