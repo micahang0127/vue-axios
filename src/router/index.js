@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 import Main from '../components/Main.vue';
 import ProdsList from '../components/ProdsList.vue';
 import PkgsList from '../components/PkgsList.vue';
+import Vehicles from '../components/VehiclesList.vue';
 
 Vue.use(VueRouter);
 
@@ -21,6 +22,10 @@ const router = new VueRouter({
             path: '/pkgs',
             component: PkgsList,
         },
+        {
+            path: '/vehicles',
+            component: Vehicles,
+        }
     ]
 });
 

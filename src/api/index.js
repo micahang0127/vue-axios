@@ -12,7 +12,12 @@ function fetchPkgsList(){
     return axios.get(`${config.baseUrl}/api/v1/pkgs`);
 }
 
+function fetchVehiclesList(){
+    return axios.get(`${config.baseUrl}/api/v1/vehicles`)
+}
+
 export {
     fetchProdsList,
     fetchPkgsList,
+    fetchVehiclesList,
 };
