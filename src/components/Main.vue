@@ -3,6 +3,7 @@
         <router-link to="/prods" style="margin:20px;">Prods</router-link>
         <router-link to="/pkgs" style="margin:20px;">Pkgs</router-link>
         <router-link to="/vehicles" style="margin:20px;">Vehicles</router-link>
+        <router-link to="/subscs" style="margin:20px;">Subscs</router-link>
     </div>
 </template>
 

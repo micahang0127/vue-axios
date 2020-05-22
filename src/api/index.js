@@ -16,8 +16,13 @@ function fetchVehiclesList(){
     return axios.get(`${config.baseUrl}/api/v1/vehicles`)
 }
 
+function fetchSubscsList(){
+    return axios.get(`${config.baseUrl}/api/v1/subscs`)
+}
+
 export {
     fetchProdsList,
     fetchPkgsList,
     fetchVehiclesList,
+    fetchSubscsList,
 };
